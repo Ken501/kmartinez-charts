@@ -13,7 +13,7 @@ serviceName:
 ingressName:
   name: nginx-ingress
 
-replicaCount: 2
+replicaCount: 3
 
 image:
   repository: nginx
@@ -61,7 +61,7 @@ ingress:
     alb.ingress.kubernetes.io/load-balancer-attributes: deletion_protection.enabled=false
     alb.ingress.kubernetes.io/tags: Environment=dev,app=nginx
     alb.ingress.kubernetes.io/ip-address-type: ipv4
-    alb.ingress.kubernetes.io/listen-ports:  '[{"HTTP": 80}]'
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
   hosts:
     - host: chart-example.local
       paths:
