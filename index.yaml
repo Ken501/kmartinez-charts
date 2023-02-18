@@ -3,6 +3,19 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-02-18T22:51:48.764225026Z"
+    description: A Helm chart for Kubernetes
+    digest: 137d3afbe46ff05023d4fc98c784e3f73c3601ac3e875f0a5c6d4492ee2795e9
+    maintainers:
+    - email: kenneth_young501@live.com
+      name: Kmartinez
+    name: nginx
+    type: application
+    urls:
+    - https://github.com/Ken501/kmartinez-charts/releases/download/nginx-0.2.0/nginx-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-02-18T22:30:59.288987897Z"
     description: A Helm chart for Kubernetes
     digest: c2ee443cbc51bf780feb2b3931224e460bbc2fe45fa0cbc9a60472946c2b73e9
@@ -15,4 +28,4 @@ entries:
     urls:
     - https://github.com/Ken501/kmartinez-charts/releases/download/nginx-0.1.0/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-18T22:30:59.288996897Z"
+generated: "2023-02-18T22:51:48.764232726Z"
